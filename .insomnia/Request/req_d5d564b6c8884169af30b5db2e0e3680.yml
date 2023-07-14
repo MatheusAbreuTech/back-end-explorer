@@ -1,0 +1,30 @@
+_id: req_d5d564b6c8884169af30b5db2e0e3680
+type: Request
+parentId: fld_479d64f1906a43afb0dede60429d9f92
+modified: 1685230186477
+created: 1684179139428
+url: "{{ _.BASE_URL }}/users"
+name: InsertUser
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"name": "pedro5",
+    	"email": "pedro5@gmail.com",
+    	"password": "123456"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1684248673346.75
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

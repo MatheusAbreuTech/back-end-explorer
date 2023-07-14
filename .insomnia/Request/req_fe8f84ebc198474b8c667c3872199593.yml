@@ -1,0 +1,29 @@
+_id: req_fe8f84ebc198474b8c667c3872199593
+type: Request
+parentId: fld_5b1afe2b6bc44848a3c3ccf48eec7b83
+modified: 1689354664984
+created: 1685457802104
+url: "{{ _.BASE_URL }}/sessions"
+name: Create
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"email": "matheus@gmail.com",
+    	"password": "123"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1685457732851.125
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

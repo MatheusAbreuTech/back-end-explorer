@@ -1,0 +1,37 @@
+_id: req_5234224dc0324ca384e5ca7bdf9439ef
+type: Request
+parentId: fld_479d64f1906a43afb0dede60429d9f92
+modified: 1689365456581
+created: 1689365180549
+url: "{{ _.BASE_URL }}/users/avatar"
+name: Avatar
+description: ""
+method: PATCH
+body:
+  mimeType: multipart/form-data
+  params:
+    - id: pair_c880f11c9c8a4d4eaa6bcb3439c99db6
+      name: avatar
+      value: ""
+      description: ""
+      type: file
+      fileName: C:\Users\User\Desktop\patolino.jpg
+    - id: pair_f563ec009221498fb3339e3b7b9cf115
+      name: ""
+      value: ""
+      description: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: multipart/form-data
+authentication:
+  type: bearer
+  token: "{{ _.USER_TOKEN }}"
+metaSortKey: -1689365180549
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

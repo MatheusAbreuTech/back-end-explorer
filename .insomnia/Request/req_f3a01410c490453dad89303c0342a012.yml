@@ -1,0 +1,33 @@
+_id: req_f3a01410c490453dad89303c0342a012
+type: Request
+parentId: fld_e91768edcf1d4c9eb92ac85429a1399a
+modified: 1689357239863
+created: 1685232761732
+url: "{{ _.BASE_URL }}/notes/"
+name: Create
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"title": "Introdução Nodejs3",
+    	"description": "Essa é uma nota de exemplo.3",
+    	"tags": ["node", "express"],
+    	"links": ["links1", "links2"]
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: "{{ _.USER_TOKEN }}"
+metaSortKey: -1685232761732
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

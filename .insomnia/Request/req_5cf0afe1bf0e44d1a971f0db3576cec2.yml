@@ -1,0 +1,33 @@
+_id: req_5cf0afe1bf0e44d1a971f0db3576cec2
+type: Request
+parentId: fld_479d64f1906a43afb0dede60429d9f92
+modified: 1689357205243
+created: 1684701557076
+url: "{{ _.BASE_URL }}/users/"
+name: UpdateUserById
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"name": "henrique",
+    	"email": "henrique3@gmail.com",
+    	"old_password": "1234567",
+    	"password" : "123456"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: "{{ _.USER_TOKEN }}"
+metaSortKey: -1684701557076
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

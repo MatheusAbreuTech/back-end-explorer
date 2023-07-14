@@ -1,0 +1,35 @@
+_id: req_d273e1e040c6453abc2f6c73eadb789b
+type: Request
+parentId: fld_e91768edcf1d4c9eb92ac85429a1399a
+modified: 1689357494233
+created: 1685237730686
+url: "{{ _.BASE_URL }}/notes/"
+name: index
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_53ec8984bba84b398be7db44a26f00d8
+    name: user_id
+    value: "4"
+    description: ""
+  - id: pair_4c6d2e8eba1b47d8a6d24191b38a4cf5
+    name: title
+    value: ""
+    description: ""
+  - id: pair_803684dcb16b4fc8a590aef0f94b3b62
+    name: tags
+    value: node
+    description: ""
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.USER_TOKEN }}"
+metaSortKey: -1685237730686
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

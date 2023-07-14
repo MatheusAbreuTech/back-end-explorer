@@ -1,0 +1,9 @@
+_id: wrk_e7087cc35d574db1809bd288554391e4
+type: Workspace
+parentId: null
+modified: 1689356352461
+created: 1689356352461
+name: back-end-explorer.git
+description: Insomnia Workspace for
+  git+https://github.com/MatheusAbreuTech/back-end-explorer.git}
+scope: design

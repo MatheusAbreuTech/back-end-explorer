@@ -1,0 +1,23 @@
+_id: req_10034d3361e84a4cab65e99224b33fbf
+type: Request
+parentId: fld_df4c9b3ab4714e289ddbe71df5fa4eaa
+modified: 1689357607341
+created: 1685455690640
+url: "{{ _.BASE_URL }}/tags/"
+name: index
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.USER_TOKEN }}"
+metaSortKey: -1685455690640
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

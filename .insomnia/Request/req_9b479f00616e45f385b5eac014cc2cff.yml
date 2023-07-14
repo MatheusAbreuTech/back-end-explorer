@@ -1,0 +1,23 @@
+_id: req_9b479f00616e45f385b5eac014cc2cff
+type: Request
+parentId: fld_e91768edcf1d4c9eb92ac85429a1399a
+modified: 1689357473419
+created: 1685236857742
+url: "{{ _.BASE_URL }}/notes/3"
+name: Show
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.USER_TOKEN }}"
+metaSortKey: -1685236857742
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
