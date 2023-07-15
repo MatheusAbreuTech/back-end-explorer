@@ -1,0 +1,21 @@
+_id: req_76fdae19c04f422b916e3cee54a04390
+type: Request
+parentId: fld_bd0a11716fc54573b88173c13f469882
+modified: 1689393385483
+created: 1689393311734
+url: "{{ _.BASE_URL }}/files/c8d671b2f53afa41e300-patolino_calÃ§a.png"
+name: Avatar
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1689393311734
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
