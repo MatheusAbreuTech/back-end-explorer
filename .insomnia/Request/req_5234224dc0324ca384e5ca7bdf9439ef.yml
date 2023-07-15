@@ -1,7 +1,7 @@
 _id: req_5234224dc0324ca384e5ca7bdf9439ef
 type: Request
 parentId: fld_479d64f1906a43afb0dede60429d9f92
-modified: 1689365456581
+modified: 1689393215762
 created: 1689365180549
 url: "{{ _.BASE_URL }}/users/avatar"
 name: Avatar
@@ -10,16 +10,12 @@ method: PATCH
 body:
   mimeType: multipart/form-data
   params:
-    - id: pair_c880f11c9c8a4d4eaa6bcb3439c99db6
+    - id: pair_f563ec009221498fb3339e3b7b9cf115
       name: avatar
       value: ""
       description: ""
       type: file
-      fileName: C:\Users\User\Desktop\patolino.jpg
-    - id: pair_f563ec009221498fb3339e3b7b9cf115
-      name: ""
-      value: ""
-      description: ""
+      fileName: C:\Users\PC\Pictures\patolino_calça.png
 parameters: []
 headers:
   - name: Content-Type
