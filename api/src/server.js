@@ -2,13 +2,17 @@ require('express-async-errors');
 
 const migrationRun = require('./database/sqlite/migrations');
 const AppError = require('./Utils/AppError');
+const uploadConfig = require('./configs/upload');
+
 const express = require('express');
+const cors = require('cors');
 const routes = require('./routes');
 
 migrationRun();
 
 const app = express();
 
+app.use(cors());
 app.use(express.json());
 app.use(routes);
 app.use((error, req, res, next) => {
@@ -26,6 +30,7 @@ app.use((error, req, res, next) => {
     message: 'Internal Server Error',
   });
 });
+app.use('/files', express.static(uploadConfig.UPLOADS_FOLDER));
 
 const PORT = 3333;
 app.listen(PORT, () => console.log(`Server is running on Port ${PORT}`));
